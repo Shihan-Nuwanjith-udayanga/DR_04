@@ -52,6 +52,7 @@ const Login = () => {
             </View>
         </ScrollView>
     </SafeAreaView>
+    
   );
 };
 
