@@ -43,16 +43,16 @@ const WebDetails = () => {
                 <Text style={styles.txtCategory}>CSS</Text>
               </TouchableOpacity>
             </View>
+             <View style={styles.categoryView}>
+              <TouchableOpacity style={styles.categoryTouchable} onPress={() => Linking.openURL('https://angular.io/')}>
+                <Image source={require('../assets/images/angular.png')} style={styles.categoryImage} />
+                <Text style={styles.txtCategory}>Angular</Text>
+              </TouchableOpacity>
+            </View>
             <View style={styles.categoryView}>
               <TouchableOpacity style={styles.categoryTouchable} onPress={() => Linking.openURL('https://developer.mozilla.org/en-US/docs/Web/JavaScript')}>
                 <Image source={require('../assets/images/js.png')} style={styles.categoryImage} />
                 <Text style={styles.txtCategory}>Java Script</Text>
-              </TouchableOpacity>
-            </View>
-            <View style={styles.categoryView}>
-              <TouchableOpacity style={styles.categoryTouchable} onPress={() => Linking.openURL('https://angular.io/')}>
-                <Image source={require('../assets/images/angular.png')} style={styles.categoryImage} />
-                <Text style={styles.txtCategory}>Angular</Text>
               </TouchableOpacity>
             </View>
             <View style={styles.categoryView}>
